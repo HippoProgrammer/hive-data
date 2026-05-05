@@ -12,3 +12,8 @@ category = "Meta/Reference"
 title = "Welcome to Horizon! (New players click here)"
 nation = "sandy_wilds"
 category = "Meta/Reference"
+
+[armada_ranks]
+title = "Galactic Armada - Ranks"
+nation = "starlit_constellations"
+category = "Meta/Reference"
