@@ -25,6 +25,12 @@ nation = "sandy_wilds"
 category = "Bulletin/Campaign"
 regenerate_after = 7
 
+[endotart]
+title = "Biweekly Endorsement Competition - Win a Legendary Card!"
+nation = "starlit_constellations"
+category = "Bulletin/Campaign"
+regenerate_after = 14
+
 [armada_ranks]
 title = "Galactic Armada - Ranks"
 nation = "starlit_constellations"
