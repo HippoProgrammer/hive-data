@@ -13,6 +13,18 @@ title = "Welcome to Horizon! (New players click here)"
 nation = "sandy_wilds"
 category = "Meta/Reference"
 
+[slackers_stl]
+title = "Endorse the Delegate and Sentinels! (Click here)"
+nation = "starlit_constellations"
+category = "Bulletin/Campaign"
+regenerate_after = 7
+
+[slackers_hzn]
+title = "Endorse the Delegate and Sentinels! (Click here)"
+nation = "sandy_wilds"
+category = "Bulletin/Campaign"
+regenerate_after = 7
+
 [armada_ranks]
 title = "Galactic Armada - Ranks"
 nation = "starlit_constellations"
