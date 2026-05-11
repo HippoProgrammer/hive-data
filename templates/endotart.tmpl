@@ -33,6 +33,9 @@ The winner will be announced on the [b][url=https://www.nationstates.net/region=
 [i]The list below is updated once a day, at around 3:15AM EST.[/i]
 
 [table][tr][td]Nation[/td][td]Endorsements Given[/td][/tr]
+{%- for item in generated.tart -%}
+[tr][td][nation]{{ item.nation }}[/nation][/td][td]{{ item.endos }}[/td][/tr]
+{%- endfor -%}
 [/table][/box]
 
 [i]This dispatch is updated automatically.[/i]
