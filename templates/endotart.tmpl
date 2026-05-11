@@ -36,7 +36,7 @@ The winner will be announced on the [b][url=https://www.nationstates.net/region=
 {%- for item in generated.tart -%}
 [tr][td][nation]{{ item.nation }}[/nation][/td][td]{{ item.endos }}[/td][/tr]
 {%- endfor -%}
-[/table][/box]
+[/table]{{- endsection() -}}[/box]
 
 [i]This dispatch is updated automatically.[/i]
 {%- endblock -%}
