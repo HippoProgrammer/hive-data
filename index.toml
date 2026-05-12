@@ -13,6 +13,16 @@ title = "Welcome to Horizon! (New players click here)"
 nation = "sandy_wilds"
 category = "Meta/Reference"
 
+[hyperion_stl]
+title = "Starlight - Hyperion Guards"
+nation = "starlit_constellations"
+category = "Meta/Reference"
+
+[hyperion_hzn]
+title = "Horizon - Hyperion Guards"
+nation = "sandy_wilds"
+category = "Meta/Reference"
+
 [slackers_stl]
 title = "Endorse the Delegate and Sentinels! (Click here)"
 nation = "starlit_constellations"
