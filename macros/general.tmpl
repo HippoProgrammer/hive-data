@@ -1,5 +1,5 @@
 {% macro section(title) -%}
-[hr][img]https://raw.githubusercontent.com/Triune-Circle/STL-HZN/555935fb7e805874bc10198cf19a9f337dc28827/disp_m_icon_star.svg[/img][tab=8][/tab][color=#107eb1][size=150][b]{{ title }}[/b][/color][/size][hr][size=120]
+[hr][img]{{ parameters.images.icon_star }}[/img][tab=8][/tab][color=#107eb1][size=150][b]{{ title }}[/b][/color][/size][hr][size=120]
 {%- endmacro %}
 
 {% macro endsection() -%}
@@ -7,5 +7,5 @@
 {%- endmacro %}
 
 {% macro divider() -%}
-[align=center][img]https://raw.githubusercontent.com/Triune-Circle/STL-HZN/881131ec6d9690413159aa6b1d29f1d532f10e8b/disp_m_divider.svg[/img][/align]
+[align=center][img]{{ parameters.images.divider }}[/img][/align]
 {%- endmacro %}

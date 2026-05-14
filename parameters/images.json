@@ -1,0 +1,26 @@
+{
+    "headers": {
+        "combined": "https://raw.githubusercontent.com/Triune-Circle/test2/c6d2739948cd49250f0a177f37506f126ba7f1fb/disp_m_header.svg",
+        "starlight": "https://raw.githubusercontent.com/Triune-Circle/test/52c1bef27c4131df499e7ce5cd492d23690ba6db/disp_m_header4.svg",
+        "horizon": "https://raw.githubusercontent.com/Triune-Circle/hor-resources/2aa3f30a3fdb4882d7427aae6ec1e70e0ea79029/disp_hor_header.svg"
+    },
+    "footers": {
+        "combined": "https://raw.githubusercontent.com/Triune-Circle/test2/488f66d266327b198a01d61cb961d0d7ba2bc24b/disp_m_footer.svg",
+        "starlight": "https://raw.githubusercontent.com/Triune-Circle/stl-resources/77a145a9359d3259b2b73f7d8dbb396998e7c3ed/disp_m_footer.svg",
+        "horizon": "https://raw.githubusercontent.com/Triune-Circle/hor-resources/d1b4a5b5b45e78a68ade5c858c66b8fd9bb41ccc/disp_hor_footer.svg"
+    },
+    "buttons": {
+        "welcome_stl": "https://raw.githubusercontent.com/Triune-Circle/test2/c6d2739948cd49250f0a177f37506f126ba7f1fb/disp_m_b_stl.svg",
+        "welcome_hzn": "https://raw.githubusercontent.com/Triune-Circle/test2/c6d2739948cd49250f0a177f37506f126ba7f1fb/disp_m_b_hor.svg",
+        "government": "https://raw.githubusercontent.com/Triune-Circle/test2/c6d2739948cd49250f0a177f37506f126ba7f1fb/disp_m_b_gov.svg",
+        "roleplay": "https://raw.githubusercontent.com/Triune-Circle/test2/c6d2739948cd49250f0a177f37506f126ba7f1fb/disp_m_b_rol.svg",
+        "military": "https://raw.githubusercontent.com/Triune-Circle/test2/c6d2739948cd49250f0a177f37506f126ba7f1fb/disp_m_b_mil.svg",
+        "welcome_h": "https://raw.githubusercontent.com/Triune-Circle/hor-resources/949621eb53d3aafc3c122e0770d3dfa6870f1c2a/disp_hor_b_wel.svg",
+        "gov_h": "https://raw.githubusercontent.com/Triune-Circle/hor-resources/949621eb53d3aafc3c122e0770d3dfa6870f1c2a/disp_hor_b_gov.svg",
+        "roleplay_h": "https://raw.githubusercontent.com/Triune-Circle/hor-resources/949621eb53d3aafc3c122e0770d3dfa6870f1c2a/disp_hor_b_rol.svg",
+        "military_h": "https://raw.githubusercontent.com/Triune-Circle/hor-resources/949621eb53d3aafc3c122e0770d3dfa6870f1c2a/disp_hor_b_mil.svg"
+    },
+    "icon_star": "https://raw.githubusercontent.com/Triune-Circle/STL-HZN/555935fb7e805874bc10198cf19a9f337dc28827/disp_m_icon_star.svg",
+    "divider": "https://raw.githubusercontent.com/Triune-Circle/STL-HZN/881131ec6d9690413159aa6b1d29f1d532f10e8b/disp_m_divider.svg",
+    "hyperion_guards": "https://i.ibb.co/Pzs8CJyY/2g-Tntzt.png"
+}
