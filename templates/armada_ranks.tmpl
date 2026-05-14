@@ -7,33 +7,33 @@
 [align=center][size=120][b]✧ [url=#member]Member Ranks[/url] ✧ [url=#officer]Officer Ranks[/url] ✧[/b][/size][/align]
 
 {{ section("Leadership") -}}
-The Galactic Armada is jointly led by the [b][color=#e0c033]Triune Circle[/color][/b] as well as the [color=#ff92f9][b]Fleetmaster[/b][/color] (an appointed commander-in-chief of the military).
+The Galactic Armada is jointly led by the [b][color={{ parameters.colors.triune_circle }}]Triune Circle[/color][/b] as well as the [color={{ parameters.colors.fleetmaster }}][b]Fleetmaster[/b][/color] (an appointed commander-in-chief of the military).
 
 [b]Current Triune Circle:[/b]
 {% for luminarch in parameters.people.luminarchs -%}
-[b][color=#E0C033]Luminarch[/color] [nation]{{ luminarch.nation }}[/nation][/b]
-{% endfor %}[b][color=#E0C033]Aetherion[/color] [nation]{{ parameters.people.aetherion.nation }}[/nation][/b]
+[b][color={{ parameters.colors.triune_circle }}]Luminarch[/color] [nation]{{ luminarch.nation }}[/nation][/b]
+{% endfor %}[b][color={{ parameters.colors.triune_circle }}]Aetherion[/color] [nation]{{ parameters.people.aetherion.nation }}[/nation][/b]
 
 [b]Current Fleetmaster: [nation]{{ parameters.armada.fleetmaster }}[/nation][/b]
 
 {{- endsection() -}}
 [/box][box][anchor=member][/anchor]
-{{- section("Member Ranks") -}}[color=#add8e6][b]✧ Galactic Recruit[/b][/color][/size]
+{{- section("Member Ranks") -}}[color={{ parameters.colors.galactic_recruit }}][b]✧ Galactic Recruit[/b][/color][/size]
 
 A newly enlisted member of the Armada, who has yet to undergo training.
 
-[b]Rank Color: [color=#add8e6]#add8e6[/color][/b]
+[b]Rank Color: [color={{ parameters.colors.galactic_recruit }}]{{ parameters.colors.galactic_recruit }}[/color][/b]
 
 [i]Recruits are not listed here.[/i]
 
 
 [hr]
 
-[size=120][color=#008000][b]✧ Interceptor[/b][/color][/size]
+[size=120][color={{ parameters.colors.interceptor }}][b]✧ Interceptor[/b][/color][/size]
 
 A full member of the Armada who has completed basic training.
 
-[b]Rank Color: [color=#008000]#008000[/color][/b]
+[b]Rank Color: [color={{ parameters.colors.interceptor }}]{{ parameters.colors.interceptor }}[/color][/b]
 
 [b]Requirements:[/b]
 [list][*] Recruits are automatically promoted to Interceptors after having participated in one update.
@@ -49,11 +49,11 @@ A full member of the Armada who has completed basic training.
 
 [hr]
 
-[size=120][color=#c71585][b]✧ Vanguard[/b][/color][/size]
+[size=120][color={{ parameters.colors.vanguard }}][b]✧ Vanguard[/b][/color][/size]
 
 A decently experienced member of the Armada experienced in all basic types of defending.
 
-[b]Rank Color: [color=#c71585]#c71585[/color][/b]
+[b]Rank Color: [color={{ parameters.colors.vanguard }}]{{ parameters.colors.vanguard }}[/color][/b]
 
 [b]Requirements:[/b]
 [list][*] Is able to consistently follow operation orders, including commands to endorse and cross-endorse nations, and move to a region.
@@ -75,11 +75,11 @@ A decently experienced member of the Armada experienced in all basic types of de
 
 [hr]
 
-[size=120][color=#b22222][b]✧ High Vanguard[/b][/color][/size]
+[size=120][color={{ parameters.colors.high_vanguard }}][b]✧ High Vanguard[/b][/color][/size]
 
 A seasoned and experienced veteran of the Armada, capable of reliably setting and calling triggers.
 
-[b]Rank Color: [color=#b22222]#b22222[/color][/b]
+[b]Rank Color: [color={{ parameters.colors.high_vanguard }}]{{ parameters.colors.high_vanguard }}[/color][/b]
 
 [b]Requirements:[/b]
 [list][*] Can reliably set and call both nation and region triggers.
@@ -96,11 +96,11 @@ A seasoned and experienced veteran of the Armada, capable of reliably setting an
 [/spoiler]
 
 [/box][box][anchor=officer][/anchor]
-{{- section("Officer Ranks") -}}[color=#001f3f][b]✧ Marshal[/b][/color][/size]
+{{- section("Officer Ranks") -}}[color={{ parameters.colors.marshal }}][b]✧ Marshal[/b][/color][/size]
 
 A junior officer of the Armada, capable of guiding and training new recruits and leading small operations.
 
-[b]Rank Color: [color=#001f3f]#001f3f[/color][/b]
+[b]Rank Color: [color={{ parameters.colors.marshal }}]{{ parameters.colors.marshal }}[/color][/b]
 
 [b]Requirements:[/b]
 [list][*] Can explain basic R/D terms to new recruits.
@@ -119,11 +119,11 @@ A junior officer of the Armada, capable of guiding and training new recruits and
 
 [hr]
 
-[size=120][color=#3d1e6d][b]✧ Nova Marshal[/b][/color][/size]
+[size=120][color={{ parameters.colors.nova_marshal }}][b]✧ Nova Marshal[/b][/color][/size]
 
 A senior officer of the Armada, capable of leading and commanding operations of all kinds and sizes.
 
-[b]Rank Color: [color=#3d1e6d]#3d1e6d[/color][/b]
+[b]Rank Color: [color={{ parameters.colors.nova_marshal }}]{{ parameters.colors.nova_marshal }}[/color][/b]
 
 [b]Requirements:[/b]
 [list][*] Can autonomously plan out an offensive or defensive operation.
