@@ -13,7 +13,8 @@ The template file should be located in the [templates/](templates/) folder, name
 
 Finally, for Hive to actually publish and update a dispatch template, it needs a metadata entry in the [index.toml](index.toml) file. The metadata entry should be formatted as follows:
 
-```[DISPATCH ID GOES HERE]
+```
+[DISPATCH ID GOES HERE]
 title = "DISPATCH TITLE GOES HERE"
 nation = "DISPATCH NATION GOES HERE"
 category = "DISPATCH CATEGORY GOES HERE"
@@ -21,7 +22,8 @@ category = "DISPATCH CATEGORY GOES HERE"
 
 The ID should be entered between square brackets, and all other values should be between double quotes. As an example, here's the Starlight welcome dispatch's metadata entry:
 
-```[welcome_stl]
+```
+[welcome_stl]
 title = "Welcome to Starlight! (New players click here)"
 nation = "starlit_constellations"
 category = "Meta/Reference"
@@ -35,7 +37,8 @@ For Horizon-exclusive dispatches, use the nation `sandy_wilds`. Otherwise, use `
 
 A basic dispatch template starts from this:
 
-```{%- extends "layouts/horizon" -%}
+```
+{%- extends "layouts/horizon" -%}
 {%- block body -%}
 
 {%- endblock -%}
@@ -47,7 +50,8 @@ To select which header/footer combination to use, edit the first line. Starlight
 
 This will not add a `[box]` tag, so in the likely case you want one of those you'll have to add it yourself. A common pattern for dispatches in this repository is therefore the following:
 
-```{%- extends "layouts/horizon" -%}
+```
+{%- extends "layouts/horizon" -%}
 {%- block body -%}
 [box]
 
@@ -67,13 +71,16 @@ Some bits of BBCode are reused often across our dispatches. Instead of rewriting
 
 The `heading()` macro adds a heading/title element:
 
-```{{- heading("Hyperion Guards") -}}```
+```
+{{- heading("Hyperion Guards") -}}
+```
 
 ![Heading element example](https://i.ibb.co/pvmP5SY7/Screenshot-from-2026-05-14-22-41-27.png)
 
 The `section()` and `endsection()` macros add a section element:
 
-```{{- section("Why have I been mentioned?") -}}
+```
+{{- section("Why have I been mentioned?") -}}
 You have been mentioned in this dispatch because you are in the World Assembly and not endorsing at least one of the following nations:
 [list][*]Delegate [b][nation]Vintrel[/nation][/b]
 [*]Celestial Sentinel [b][nation]Kaidan[/nation][/b][/list]
@@ -86,7 +93,9 @@ It is worth noting that `section()` adds a `[size=120]` tag and `endsection()` j
 
 The `divider()` macro adds a divider:
 
-```{{- divider() -}}```
+```
+{{- divider() -}}
+```
 
 ![Divider element example](https://i.ibb.co/XxQ0tg3Z/Screenshot-from-2026-05-14-22-47-03.png)
 
@@ -94,7 +103,8 @@ The `divider()` macro adds a divider:
 
 Example:
 
-```{%- from "macros/horizon" import heading -%}
+```
+{%- from "macros/horizon" import heading -%}
 {%- from "macros/general" import section, endsection, divider -%}
 {%- extends "layouts/horizon" -%}
 ```
@@ -167,10 +177,14 @@ A few examples:
 
 Pinging new arrivals to the region in welcome dispatches - `generated.welcome.REGION`
 
-```[align=center][spoiler=Welcome new nations!]{% for nation in generated.welcome.starlight %}[nation]{{ nation }}[/nation]{% endfor %}[/spoiler][/align]```
+```
+[align=center][spoiler=Welcome new nations!]{% for nation in generated.welcome.starlight %}[nation]{{ nation }}[/nation]{% endfor %}[/spoiler][/align]
+```
 
 Pinging nations not endorsing regional officers - `generated.slackers.NATION`
 
-```{{- generated.slackers.vintrel|nation_table(8) -}}```
+```
+{{- generated.slackers.vintrel|nation_table(8) -}}
+```
 
 *Note: the `nation_table` filter takes a list of nation names and creates a table with X columns per row (in this case 8), with `[nation][/nation]` tags for each nation listed.*
