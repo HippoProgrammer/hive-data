@@ -1,20 +1,16 @@
+[armada_ranks]
+title = "Galactic Armada - Ranks"
+nation = "starlit_constellations"
+category = "Meta/Reference"
+
+[endotart]
+title = "Biweekly Endorsement Competition - Win a Legendary Card!"
+nation = "starlit_constellations"
+category = "Bulletin/Campaign"
+regenerate_after = 14
+
 [government]
 title = "Starlight & Horizon - Current Government"
-nation = "starlit_constellations"
-category = "Meta/Reference"
-
-[welcome_stl]
-title = "Welcome to Starlight! (New players click here)"
-nation = "starlit_constellations"
-category = "Meta/Reference"
-
-[welcome_hzn]
-title = "Welcome to Horizon! (New players click here)"
-nation = "sandy_wilds"
-category = "Meta/Reference"
-
-[hyperion_stl]
-title = "Starlight - Hyperion Guards"
 nation = "starlit_constellations"
 category = "Meta/Reference"
 
@@ -23,11 +19,15 @@ title = "Horizon - Hyperion Guards"
 nation = "sandy_wilds"
 category = "Meta/Reference"
 
-[slackers_stl]
-title = "Endorse the Delegate and Sentinels! (Click here)"
+[hyperion_stl]
+title = "Starlight - Hyperion Guards"
 nation = "starlit_constellations"
-category = "Bulletin/Campaign"
-regenerate_after = 7
+category = "Meta/Reference"
+
+[military]
+title = "Starlight & Horizon - Galactic Armada"
+nation = "starlit_constellations"
+category = "Meta/Reference"
 
 [slackers_hzn]
 title = "Endorse the Delegate and Sentinels! (Click here)"
@@ -35,13 +35,18 @@ nation = "sandy_wilds"
 category = "Bulletin/Campaign"
 regenerate_after = 7
 
-[endotart]
-title = "Biweekly Endorsement Competition - Win a Legendary Card!"
+[slackers_stl]
+title = "Endorse the Delegate and Sentinels! (Click here)"
 nation = "starlit_constellations"
 category = "Bulletin/Campaign"
-regenerate_after = 14
+regenerate_after = 7
 
-[armada_ranks]
-title = "Galactic Armada - Ranks"
+[welcome_hzn]
+title = "Welcome to Horizon! (New players click here)"
+nation = "sandy_wilds"
+category = "Meta/Reference"
+
+[welcome_stl]
+title = "Welcome to Starlight! (New players click here)"
 nation = "starlit_constellations"
 category = "Meta/Reference"

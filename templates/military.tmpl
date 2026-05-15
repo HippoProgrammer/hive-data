@@ -1,0 +1,52 @@
+{%- from "macros/starlight" import heading -%}
+{%- from "macros/general" import section, endsection, divider -%}
+{%- extends "layouts/combined" -%}
+{%- block body -%}
+[box]
+{{- heading("Galactic Armada") -}}
+{{- section("What is Defending?") -}}
+In many regions, especially [b]{{ parameters.icons.flag }} Frontiers[/b] and those without an active [b]{{ parameters.icons.government }} Governor[/b], the [b]{{ parameters.icons.wa }} World Assembly Delegate[/b] holds significant administrative power.
+
+The Delegate is the nation with the most [b]{{ parameters.icons.award }} endorsements[/b] in the region. This is only checked by the game at a specific time every 12 hours.
+
+Therefore, some nations exploit this power by moving into a region and endorsing each other shortly before the game calculates who the Delegate should be, usurping the position for malicious purposes. This is called [b]raiding[/b].
+
+We, the [b]{{ parameters.icons.satellite }} Galactic Armada[/b], are a [b]defender[/b] military organization. 
+We combat invasions through different means, from preventing them in the first place ([b]defenses[/b]) to counter-invading raided regions, taking control back and handing them back to their owners ([b]liberations[/b]).
+
+While our primary purpose is to defend, we also [b]invade[/b] regions that promote or sympathize with fascist and bigoted views, in an effort to keep NationStates free of hate.
+
+We are the [b]most active[/b] military organization on NationStates, have the [b]largest updating force[/b] in the game, and were awarded the [b]Anarchotopia Award[/b] ([i]given to the military most successful at curtailing invasions[/i]) at the 2025 Defender Awards ceremony.
+{{- endsection() -}}
+{{- section("How do I participate?") -}}
+NationStates military activity takes place during two different times of day:
+[list][*] [b]Major Update[/b], from 12:00 AM EST to 2:00 AM EST.
+[*] [b]Minor Update[/b], from 12:00 PM EST to 1:15 PM EST.[/list]
+[i]Convert these times to your timezone [b][url=https://dateful.com/time-zone-converter]here[/url][/b].
+
+We do not require members to always be online and available at those times - it's fine if you can't always make it! Most people only show up a few times a week, month, or whenever they are needed.
+That being said, if you have no availability at all on any of those times, it may be harder to participate.
+
+After you [b][url={{ parameters.urls.discord }}]join our Discord server[/url][/b], [b][url=https://discord.com/channels/1299450621044330616/1494359827927928942/1494359827927928942]apply to join the Armada[/url][/b], get accepted, and complete basic training, you will be free to show up at any of these times and participate in whatever we need to do that day. 
+We will also occasionally notify you when there are significant operations and liberations to attend, as those need as many people present as possible!
+
+As military gameplay relies on World Assembly mechanics, and each person can only have one World Assembly nations, large operations often end up being a numbers game, so the more who can attend, the merrier.
+{{- endsection() -}}[/box]{{- divider() -}}[box]
+{{- section("Types of Defending") -}}
+[list][*] [b]Liberations[/b]: Large numbers of defenders move into a region with precise timing to take back control of it from raiders.
+[*] [b]Chases[/b]: In generally small groups, we follow raiders into regions and intercept their attempts to invade them.
+[*] [b]Detags[/b]: In generally small groups, we clean up raided regions after the raiders have left.[/list]
+
+Liberations are the simplest to understand and often the first thing you learn. You'll only need one or two additional nations for those.
+Chases and detags are more complex and can necessitate a couple more "puppet" nations. Once you get comfortable with the basics, we recommend you make 15-20 additional nations to use when needed.
+{{- endsection() -}}
+{{- section("Command & Ranks") -}}
+The Galactic Armada is led by the [b][color={{ parameters.colors.triune_circle }}]Triune Circle[/color][/b] and the [color={{ parameters.colors.fleetmaster }}][b]Fleetmaster[/b][/color] (an appointed commander-in-chief of the military), as well as officers appointed by them.
+
+More information on member and officer ranks can be found here:
+{{ templates.armada_ranks.url }}
+{{- endsection() -}}
+[/box]
+
+[i]This dispatch is updated automatically.[/i]
+{%- endblock -%}
