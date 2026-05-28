@@ -50,3 +50,8 @@ category = "Meta/Reference"
 title = "Welcome to Starlight! (New players click here)"
 nation = "starlit_constellations"
 category = "Meta/Reference"
+
+[wa_introduction]
+title = "Starlight & Horizon - Introduction to the WA"
+nation = "starlit_constellations"
+category = "Meta/Reference"
