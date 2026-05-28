@@ -3,5 +3,11 @@
     "regions": {
         "starlight": "https://www.nationstates.net/region=starlight",
         "horizon": "https://www.nationstates.net/region=horizon"
-    }
+    },
+    "waa": {
+        "mentoring_post": "https://discordapp.com/channels/1299450621044330616/1403075959145631814/1509346175256363048"
+    },
+    "get-involved: {
+    	"waa": "https://discord.com/channels/1299450621044330616/1494359486704386169"
+    } 
 }
