@@ -13,5 +13,9 @@
     "satellite": "[font=nationstates][/font]",
     "government": "[font=nationstates][/font]",
     "map": "[font=nationstates][/font]",
-    "flag": "[font=nationstates][/font]"
+    "flag": "[font=nationstates][/font]",
+    "book": "[font=nationstates][/font]",
+    "chat-empty": "[font=nationstates][/font]",
+    "newspaper": "[font=nationstates][/font]",
+    "balance-scale": "[font=nationstates][/font]"
 }
