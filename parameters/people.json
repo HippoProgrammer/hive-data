@@ -7,19 +7,18 @@
     "aethereal_council": [
         { "nation": "merethin", "discord": "@iris.dreamer" },
         { "nation": "stevist_guam", "discord": "@greatkitteh" },
-        { "nation": "kaidan", "discord": "@kaidan4" }
+        { "nation": "kaidan", "discord": "@kaidan4" },
+        { "nation": "centennium", "discord": "@centennium" }
     ],
-    "flamewarden": { "nation": "untecna", "discord": "@untecna" },
+    "flamewarden": { "nation": "idinist", "discord": "@amd_ryzen_8600g" },
     "vice_flamewardens": [
-        { "nation": "dogeland", "discord": "@theholygonkdroid" },
-        { "nation": "maraing", "discord": "@miyamai_moon" }
+        { "nation": "dogeland", "discord": "@theholygonkdroid" }
     ],
     "ministers": [
         { "title": "Minister of Foreign Affairs", "nation": "merethin", "discord": "@iris.dreamer" },
-        { "title": "Minister of World Assembly Affairs", "nation": "cessarea", "discord": "@brit0001" },
-        { "title": "Minister of Media", "nation": "borealicar", "discord": "@chocoberriez" },
-        { "title": "Minister of Culture", "nation": "stevist_guam", "discord": "@greatkitteh" },
-        { "title": "Minister of Gameside", "nation": "dogeland", "discord": "@theholygonkdroid" },
-        { "title": "Minister of Gameside", "nation": "andromisa", "discord": "@centennium" }
+        { "title": "Minister of World Assembly Affairs", "nation": "idinist", "discord": "@amd_ryzen_8600g" },
+        { "title": "Minister of Media", "nation": "aav", "discord": "@queerlyfe" },
+        { "title": "Minister of Culture", "nation": "cuchimilco", "discord": "@gonggong225088" },
+        { "title": "Minister of Gameside", "nation": "centennium", "discord": "@centennium" }
     ]
 }
