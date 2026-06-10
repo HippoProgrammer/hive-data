@@ -30,13 +30,11 @@ Below is a list of every World Assembly member in Starlight, ordered by the amou
 
 The winner will be announced on the [b][url=https://www.nationstates.net/region=starlight#rmb]{{ parameters.icons.rmb }} Regional Message Board[/url][/b], and a new version of this dispatch will be created, marking the start of another competition.
 
-[i]The list below is updated once a day, at around 3:20AM EST.[/i]
-
 [table][tr][td]Nation[/td][td]Endorsements Given[/td][/tr]
-{%- for item in generated.tart -%}
+{%- for item in generated.region_stl.tart -%}
 [tr][td][nation]{{ item.nation }}[/nation][/td][td]{{ item.endos }}[/td][/tr]
 {%- endfor -%}
 [/table]{{- endsection() -}}[/box]
 
-[i]This dispatch is updated automatically.[/i]
+[i]This dispatch is updated automatically. Please report any inaccuracies in the data to [nation]Merethin[/nation].[/i]
 {%- endblock -%}
