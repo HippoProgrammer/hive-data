@@ -45,10 +45,10 @@ To become an ambassador, you should [b][url={{ parameters.urls.discord }}]join o
 [tr][td][region]{{ ally.region }}[/region][/td][td]Ally ([b][url={{ ally.url }}]{{ ally.treaty }}[/url][/b])[/td][td]{% if ally.ambassador is defined %}[nation]{{ ally.ambassador }}[/nation]{% else %}VACANT{% endif %}[/td][/tr]
 {%- endfor -%}
 {%- for embassy in parameters.fa.embassies -%}
-[tr][td][region]{{ ally.region }}[/region][/td][td]Embassy[/td][td]{% if ally.ambassador is defined %}[nation]{{ ally.ambassador }}[/nation]{% else %}VACANT{% endif %}[/td][/tr]
+[tr][td][region]{{ embassy.region }}[/region][/td][td]Embassy[/td][td]{% if embassy.ambassador is defined %}[nation]{{ embassy.ambassador }}[/nation]{% else %}VACANT{% endif %}[/td][/tr]
 {% endfor %}
 {%- for consulate in parameters.fa.consulates -%}
-[tr][td][region]{{ ally.region }}[/region][/td][td]Consulate[/td][td]{% if ally.ambassador is defined %}[nation]{{ ally.ambassador }}[/nation]{% else %}VACANT{% endif %}[/td][/tr]
+[tr][td][region]{{ consulate.region }}[/region][/td][td]Consulate[/td][td]{% if consulate.ambassador is defined %}[nation]{{ consulate.ambassador }}[/nation]{% else %}VACANT{% endif %}[/td][/tr]
 {%- endfor -%}
 [/table]
 {{- endsection() -}}
