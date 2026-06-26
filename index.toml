@@ -9,6 +9,11 @@ nation = "starlit_constellations"
 category = "Bulletin/Campaign"
 regenerate_after = 14
 
+[foreign_affairs]
+title = "Starlight & Horizon - Foreign Affairs"
+nation = "starlit_constellations"
+category = "Meta/Reference"
+
 [government]
 title = "Starlight & Horizon - Current Government"
 nation = "starlit_constellations"

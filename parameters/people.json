@@ -14,11 +14,11 @@
     "vice_flamewardens": [
         { "nation": "dogeland", "discord": "@theholygonkdroid" }
     ],
-    "ministers": [
-        { "title": "Minister of Foreign Affairs", "nation": "merethin", "discord": "@iris.dreamer" },
-        { "title": "Minister of World Assembly Affairs", "nation": "idinist", "discord": "@amd_ryzen_8600g" },
-        { "title": "Minister of Media", "nation": "aav", "discord": "@queerlyfe" },
-        { "title": "Minister of Culture", "nation": "cuchimilco", "discord": "@gonggong225088" },
-        { "title": "Minister of Gameside", "nation": "centennium", "discord": "@centennium" }
-    ]
+    "ministers": {
+        "Foreign Affairs": {"nation": "merethin", "discord": "@iris.dreamer" },
+        "World Assembly Affairs": {"nation": "idinist", "discord": "@amd_ryzen_8600g" },
+        "Media": {"nation": "aav", "discord": "@queerlyfe" },
+        "Culture": {"nation": "cuchimilco", "discord": "@gonggong225088" },
+        "Gameside": {"nation": "centennium", "discord": "@centennium" }
+    }
 }

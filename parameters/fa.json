@@ -1,0 +1,41 @@
+{
+    "allies": [
+        { "region": "Ridgefield", "treaty": "First Contact", "url": "https://www.nationstates.net/page=dispatch/id=2653524", "ambassador": "missouria" },
+        { "region": "Talonia", "treaty": "Treaty from a Hawk to a Star", "url": "https://www.nationstates.net/page=dispatch/id=2689864", "ambassador": "andromisa" },
+        { "region": "Augustin Alliance", "treaty": "Plutonian Compromise", "url": "https://www.nationstates.net/page=dispatch/id=2693488", "ambassador": "missouria" },
+        { "region": "The Region That Has No Big Banks", "treaty": "The Anti Galactic Big Banking Accords", "url": "https://www.nationstates.net/page=dispatch/id=2713464", "ambassador": "eastern_arba_fir" },
+        { "region": "The League", "treaty": "Rocket Bot Resolution", "url": "https://www.nationstates.net/page=dispatch/id=2713548", "ambassador": "maraing" },
+        { "region": "Europeia", "treaty": "The Artemis Alliance", "url": "https://www.nationstates.net/page=dispatch/id=2791017", "ambassador": "missouria" },
+        { "region": "The Plains of Perdition", "treaty": "The Rose Colored Accords", "url": "https://www.nationstates.net/page=dispatch/id=2729480", "ambassador": "alainian_federation" },
+        { "region": "The Order of The Grey Wardens", "treaty": "The Canticle of Light", "url": "https://www.nationstates.net/page=dispatch/id=2750936", "ambassador": "imantica" },
+        { "region": "The South Pacific", "treaty": "Covenant of Swans and Stars", "url": "https://www.nationstates.net/page=dispatch/id=2762313", "ambassador": "dogeland" }
+    ],
+    "embassies": [
+        { "region": "The Sasquatch Republic" },
+        { "region": "Declansburg", "ambassador": "untecna" },
+        { "region": "Lazarus", "ambassador": "untecna" },
+        { "region": "RGBN", "ambassador": "eastern_arba_fir" },
+        { "region": "The Wellspring", "ambassador": "merethin" },
+        { "region": "Commonwealth of Sovereign States", "ambassador": "dogeland" },
+        { "region": "10000 Islands", "ambassador": "kadaizee" },
+        { "region": "The United Federations" },
+        { "region": "Communitas", "ambassador": "vintrel" },
+        { "region": "The Rejected Realms", "ambassador": "missouria" },
+        { "region": "Karma", "ambassador": "oseao" },
+        { "region": "Europe", "ambassador": "merethin" },
+        { "region": "The Outback", "ambassador": "alainian_federation" },
+        { "region": "Forest", "ambassador": "oseao" },
+        { "region": "Carcassonne", "ambassador": "andromisa" },
+        { "region": "The East Pacific", "ambassador": "merethin" },
+        { "region": "The West Pacific", "ambassador": "oseao" },
+        { "region": "Balder", "ambassador": "kadaizee" },
+        { "region": "The North Pacific", "ambassador": "stevist_guam" },
+        { "region": "The Frontier Sea", "ambassador": "oseao" }
+    ],
+    "consulates": [
+        { "region": "The Leftist Assembly", "ambassador": "alainian_federation" }
+    ],
+    "multilaterals": [
+        { "name": "The Sovereign Seven", "url": "https://www.nationstates.net/page=dispatch/id=2640107", "ratified": "November 8, 2025" }
+    ]
+}

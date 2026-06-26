@@ -1,0 +1,66 @@
+{%- from "macros/starlight" import heading -%}
+{%- from "macros/general" import section, endsection, divider -%}
+{%- extends "layouts/combined" -%}
+{%- block body -%}
+[box]
+{{- heading("Foreign Affairs") -}}
+{{- section("Introduction") -}}
+To start a diplomatic relationship with the Luminous Triarchy of Starlight, please contact the current Minister of Foreign Affairs, [nation]{{ parameters.people.ministers["Foreign Affairs"].nation }}[/nation]. Regions must provide justification for wanting to establish diplomatic contact and communicate clearly and respectfully with us.
+
+Embassy requests made without a prior diplomatic relationship will be denied.
+
+Diplomatic contact starts with a [b]Consulate[/b]: an off-site embassy. We will exchange diplomats and keep each other updated on regional news.
+
+After sufficient time with active contact as a Consulate, usually a few months, if both parties are interested, the relationship can be upgraded to an [b]Embassy[/b], at which point on-site NationStates embassies will be constructed.
+
+Regions with which we have formal treaty agreements are considered [b]Allies[/b].
+
+[i]Note: at the discretion of the Ministry of Foreign Affairs, diplomatic relationships which are considered to be of significant regional interest to Starlight & Horizon may bypass some of the above steps.[/i]
+{{- endsection() -}}
+{{- section("Requirements") -}}
+To be considered for a consulate, regions must meet the following criteria:
+
+[list=1] 
+[*] The region must not support or sympathize with fascism or any form of hateful ideology. 
+[*] The region must align with the community values of the Luminous Triarchy of Starlight.
+[*] The region must not staunchly contravene Starlight's defender gameplay alignment.
+[*] The region must have an active community and show active participation on regional communication platforms, such as regional message board and/or a discord server. 
+[*] The region must have a stable and functioning government. 
+[*] The region should have a population of at least 50 nations.
+[*] The region should have a delegate with at least 20 endorsements.
+[*] The region should have an offsite platform, such as a Discord server or a forum.
+[/list]
+
+Meeting these requirements is not a guarantee that a request will be accepted. Existing diplomatic partners may be allowed to forgo some of the latter requirements due to historical reasons.
+{{- endsection() -}}[/box]{{- divider() -}}[box]
+{{- section("Ambassadors") -}}
+Ambassadors represent us in a region we have relations with. As ambassadors, you will be assigned to one or more regions, where you will represent Starlight & Horizon and post updates and other important information for our allies and friends to see.
+
+To become an ambassador, you should [b][url={{ parameters.urls.discord }}]join our regional Discord server[/url][/b] and fill out the form in [b][url=https://discord.com/channels/1299450621044330616/1494359593399353395/1494359593399353395]the Ministry of Foreign Affairs thread[/url][/b]. To be an ambassador, you must be a [b][url={{ templates.welcome_stl.url }}#cit]citizen[/url][/b] first.
+{{- endsection() -}}[/box]{{- divider() -}}[box]
+{{- section("List of Diplomatic Relationships") -}}
+[table]
+[tr][td][b]Region[/b][/td][td][b]Status[/b][/td][td][b]Ambassador[/b][/td][/tr]
+{%- for ally in parameters.fa.allies -%}
+[tr][td][region]{{ ally.region }}[/region][/td][td]Ally ([b][url={{ ally.url }}]{{ ally.treaty }}[/url][/b])[/td][td]{% if ally.ambassador is defined %}[nation]{{ ally.ambassador }}[/nation]{% else %}VACANT{% endif %}[/td][/tr]
+{%- endfor -%}
+{%- for embassy in parameters.fa.embassies -%}
+[tr][td][region]{{ ally.region }}[/region][/td][td]Embassy[/td][td]{% if ally.ambassador is defined %}[nation]{{ ally.ambassador }}[/nation]{% else %}VACANT{% endif %}[/td][/tr]
+{% endfor %}
+{%- for consulate in parameters.fa.consulates -%}
+[tr][td][region]{{ ally.region }}[/region][/td][td]Consulate[/td][td]{% if ally.ambassador is defined %}[nation]{{ ally.ambassador }}[/nation]{% else %}VACANT{% endif %}[/td][/tr]
+{%- endfor -%}
+[/table]
+{{- endsection() -}}
+{{- section("List of Multilateral Agreements") -}}
+[table]
+[tr][td][b]Treaty[/b][/td][td][b]Date Ratified[/b][/td][/tr]
+{%- for treaty in parameters.fa.multilaterals -%}
+[tr][td][b][url={{ treaty.url }}]{{ treaty.name }}[/url][/b][/td][td]{{ treaty.ratified }}[/td][/tr]
+{%- endfor -%}
+[/table]
+{{- endsection() -}}
+[/box]
+
+[i]This dispatch is updated automatically.[/i]
+{%- endblock -%}

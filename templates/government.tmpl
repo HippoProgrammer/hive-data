@@ -22,8 +22,8 @@
 
 
 [size=150][b]Cabinet[/b][/size]
-[hr]{%- for minister in parameters.people.ministers -%}
-[b][color={{ parameters.colors.minister }}]{{ minister.title }}[/color] [nation]{{ minister.nation }}[/nation] ({{ minister.discord }})[/b]
+[hr]{%- for position, minister in parameters.people.ministers.items() -%}
+[b][color={{ parameters.colors.minister }}]Minister of {{ position }}[/color] [nation]{{ minister.nation }}[/nation] ({{ minister.discord }})[/b]
 {% endfor %}
 [/box]
 {%- endblock -%}
