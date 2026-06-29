@@ -3,6 +3,11 @@ title = "Galactic Armada - Ranks"
 nation = "starlit_constellations"
 category = "Meta/Reference"
 
+[endorse_celia]
+title = "Please endorse our new Celestial Sentinel, Alainian Otters!"
+nation = "sandy_wilds"
+category = "Bulletin/Campaign"
+
 [endotart]
 title = "Biweekly Endorsement Competition - Win a Legendary Card!"
 nation = "starlit_constellations"
